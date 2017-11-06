@@ -1,0 +1,132 @@
+/* body */
+body{
+    background: #fff9de;
+    margin: 0;
+}
+
+
+/*サイトタイトル*/
+h1{
+    font-size: 16px;
+    color: #765137;
+    text-align: center;
+}
+
+h2{
+    border-left: solid 6px #6b3008;
+}
+
+h3{
+    padding-left: 6px;
+}
+
+/* ページの先頭へ */
+.pagetop{
+    text-align: right;
+}
+
+
+/* コピーライト */
+.copyright{
+    text-align: center;
+    border-top: solid 3px #000000; 
+}
+
+/* article */
+article{
+    padding: 32px 16px;
+}
+
+#profile{
+    background: #6b3008;
+    color: #ffffff;
+}
+
+#profile .inner{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* コンテンツの上限を設定 */
+#concert{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+section{
+    margin: 48px 0;
+}
+
+/* 出演者のsection */
+.performer{
+    margin: 0 0 24px;
+    overflow: hidden;
+}
+
+.performer img{
+    float: left;
+    margin: 0 16px 0 0;
+}
+
+.performer h4{
+    margin: 0 0 0.5em;
+}
+.performer p{
+    margin: 0;
+}
+
+
+/* 表 */
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    border: solid 1px #999999;
+    padding: 16px
+}
+th{
+    background: #62d5e8
+}
+
+ol li{
+    list-style-type: upper-roman;
+}
+
+/* ナビゲーション */
+.navigation ul {
+    background: #000000;
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+}
+
+.navigation ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 8px;
+}
+
+.navigation ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover{
+    color: #62d5e8;
+    text-decoration: underline;
+}
+
+/* メインビジュアル */
+.mainvisual{
+    background: #62d5e8;
+    border-bottom: solid 3px #000000;
+}
+
+.mainvisual img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
